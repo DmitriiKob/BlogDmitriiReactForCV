@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: var(--primary-color);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+  }
+  
+  .navlist {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navitem {
+    margin-right: 20px;
+    font-size: var(--font-size);
+    font-weight: 600;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navitem:hover,
+  .navitem.active {
+    color: var(--accent-color);
+  }
+  

@@ -1,0 +1,37 @@
+.home,
+.about,
+.services,
+.articles,
+.article {
+  margin-bottom: 40px;
+}
+
+.home h1,
+.about h1,
+.services h1,
+.articles h1,
+.article h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.home p,
+.about p,
+.services p,
+.articles p,
+.article p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.article h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.article p {
+  margin-bottom: 20px;
+}
